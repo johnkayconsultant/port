@@ -1,5 +1,5 @@
 import './App.css'
-// import Navigations from './Components/Navigations';
+import Navigations from './Components/Navigations';
 import Contact from './Components/Contact';
 // import Footer from './Components/Footer';
 import About from './Components/About';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='min-h-screen  text-green-500 bg-orange-800'>
-     {/* <Navigations/>    */}
+     <Navigations/>   
      <Contact/>
      {/* <Footer/> */}
      <About/>
