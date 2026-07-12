@@ -94,7 +94,7 @@ export default function Contact() {
 
                     {/* Contact Cards */}
               <div className='space-y-4'>
-                  {contactInfo.map((item,index)=>(
+                  {contactInfo.map((item)=>(
                     <motion.a
                        key={item.label}
                        href={item.href}
@@ -123,7 +123,7 @@ export default function Contact() {
                           >
                              <h3 className="text-white font-semibold mb-4">Connect With Me</h3>
                              <div className='flex gap-3'>
-                              {socialLinks.map((social, index)=>(
+                              {socialLinks.map((social)=>(
                                 <motion.a
                                   key={social.label}
                                   href={social.href}
